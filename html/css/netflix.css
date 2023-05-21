@@ -1,0 +1,226 @@
+body{
+    background-color:black;
+    
+}
+
+#container{
+    background-color: rgb(1, 8, 8);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 100vh;
+    display: grid;
+    gap: 0px;
+    border: 2px solid black;
+}
+
+.cabeza{
+    border: 2px solid black;
+}
+
+#logo{
+    
+    
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: black;
+    color: aliceblue;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(123, 31, 31);
+    /* width: 100px; */
+    
+}
+
+#inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: black;
+}
+
+#serie{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: black;
+}
+
+#películas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: black;
+
+}
+
+#novedades{
+    background-color: rgb(2, 2, 2);
+    grid-column: 5/10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+#lista{
+    grid-column: 10/12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: black;
+}
+
+.vacio{
+    background-color: rgb(0, 0, 0);
+}
+
+#image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    margin-top: 20px;
+    
+}
+
+#documentales{
+    grid-column: 1/21;
+    display: flex;
+    justify-content:left;
+    align-items:last baseline;
+    font-size: 25px;
+    color: white;
+    margin-left: 10px;
+    
+    
+}
+
+#central{
+    background-color: black;
+    grid-column: 1/5;
+    /* grid-row: 3/5; */
+    margin-left: 10px;
+    height: 200px;
+    background-image: url(./img/5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+    
+}
+
+p{
+    font-size: 35px;
+    color:rgb(217, 216, 220);
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+}
+
+#cent{
+    background-color: black;
+    height: 200px;
+    grid-column: 5/10;
+    background-image: url(./img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+}
+
+#centio{
+    background-color: black;
+    /* height: 120px; */
+    grid-column: 10/16;
+    margin-right: 5px;
+    background-image: url(./img/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#centimo{
+    grid-column: 16/21;
+    /* height: 120px; */
+    background-color: rgb(113, 33, 33);
+    background-image: url(./img/africaine.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#vacios{
+    grid-column: 1/21;
+    display: flex;
+    justify-content:left;
+    align-items:last baseline;
+    font-size: 25px;
+    color: white;
+    margin-left: 10px;
+    /* background-color: brown; */
+    
+}
+
+
+#final{
+    background-color: burlywood;
+    grid-column: 1/5;
+    margin-left: 10px;
+    grid-row: 5/7;
+    height: 200px;
+    background-image: url(./img/b1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+}
+
+#semifinal{
+    grid-column: 5/10;
+    grid-row: 5/7;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-right: 5px; */
+    height: 200px;
+    background-image: url(./img/fuerte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+}
+
+#semi-final{
+    background-color: aqua;
+    grid-column: 10/16;
+    grid-row: 5/7;
+    margin-right: 5px;
+    height: 200px;
+    background-image: url(./img/soldat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gagnant{
+    background-color: yellowgreen;
+    grid-column: 16/21;
+    grid-row: 5/7;
+    height: 200px;
+    background-image: url(./img/pexels-𝘽𝙡𝙪𝙚-𝘼𝙧𝙖𝙪𝙯-12063480.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#pie{
+    grid-column: 1/21;
+    background-color: rgb(46, 28, 5);
+}
